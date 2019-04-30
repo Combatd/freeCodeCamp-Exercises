@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page: Free Code Camp</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<main>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please give us your feedback!</p>
+  
+  <form id="survey-form"> 
+    <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Enter Your Name" required></label><br>
+    <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="example@example.com" required></label>
+    <label id="number-label" for="number">Age: <input id="number" type="number" min="0" max="120" placeholder="0" required></label>
+    <br>
+    <br>
+    <label id="dropdown-label" for="dropdown">Select your Country 
+      <select id="dropdown">Stuff 
+        <option value="US">United States</option>
+        <option value="UK">United Kingdom</option>
+        <option value="CA">Canada</option>
+        <option value="AUS">Australia</option>
+        <option value="OTHER">Other</option>
+       </select>
+    </label>
+    <br>
+    <label for="preferences">Which item do you like best?</label>
+      <div id="preferences-div">
+        <ul id="preferences">
+          <li><input id="hotdog" type="radio" name="prefer" value="hotdog"> Hot Dog</input></li>
+          <li><input id="pizza" type="radio" name="prefer" value="pizza"> Pizza</input></li>
+          <li><input id="hamburger" type="radio" name="prefer" value="hamburger"> Hamburger</input></li>
+        </ul>
+      </div>  
+    <br>
+    <label for="purchase">How do you usually purchase our food?</label>
+      <div id="purchase-div">
+        <ul id="purchase">
+          <li><input type="checkbox" value="dine-in">Dine-In</input></li>
+          <li><input type="checkbox" value="dine-out">Dine-Out</input></li>
+          <li><input type="checkbox" value="drive-thru">Drive-Thru</input></li>
+        </ul>  
+      </div>   
+    <br>
+<label id="comments-label" for="comments">Additonal Comments:</label>
+      <textarea id="comments" rows="4" cols="30">
+    
+      </textarea>
+  
+    <br>
+   <button id="submit" value="Submit form">Submit</button>
+  </form>
+    
+</main>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

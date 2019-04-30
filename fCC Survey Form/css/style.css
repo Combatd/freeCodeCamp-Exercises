@@ -1,0 +1,64 @@
+body {
+  background-color: teal;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+form {
+  display: block;
+  border: 2px solid blue;
+  font-family: Helvetica;
+  padding: 10px;
+}
+
+div {
+  display: inline-block;
+  width: 42%;
+}
+
+#purchase-div {
+  padding-bottom: 40px;
+}
+
+#dropdown {
+  height: 30px;
+  width: 130px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid;
+}
+
+ul {
+  position: relative;
+  top: 40px;
+  list-style: none;
+}
+
+#preferences {}
+  padding: 0px;
+}
+
+#comments-label {
+  position: relative;
+  bottom: 10px;
+}
+
+
+
+#submit {
+  margin-top: 10px;
+  background-color: #a9d7d1;
+  border-radius: 3px;
+  font-size: 1em;
+}
