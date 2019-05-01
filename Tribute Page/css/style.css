@@ -1,0 +1,45 @@
+#main {
+  background: linear-gradient(210deg, #65272c, #9400D3);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#tribute-info {
+  background: linear-gradient(35deg, #65272c, #9400D3);
+}
+
+#image {
+  margin: 0 auto 0 auto;
+  max-width: 50%;
+  display: block;
+  height: auto;
+  padding: 5px;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 20px;
+}
+
+#timeline-title {
+  text-align: center;
+}
+
+#timeline-events {
+  text-align: justify;
+  margin: 0px 190px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
