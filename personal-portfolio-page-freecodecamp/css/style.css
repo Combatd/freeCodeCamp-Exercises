@@ -1,0 +1,95 @@
+h1 {
+  position: relative;
+  left: 15%;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+#welcome-section {
+  background-color: SkyBlue;
+  
+  box-sizing: content-box;
+  width: 100%;
+  height: auto;
+  
+  margin: 0;
+  padding: 0px;
+}
+
+#testable-projects {
+  box-sizing: border-box;
+  
+ 
+  height: 100% 
+  width: 100%; 
+}
+
+.project-tile {
+  font-size: 20px;
+  height: auto;
+  width: 100%;
+  background: Teal;
+  display: grid;
+  
+  grid-template-columns: repeat( auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+  
+  grid-template-areas:
+      "header" 
+      "header"
+      "footer" 
+      "footer";
+}
+
+#profile-link {
+  font-size: 24px;
+}
+
+.project-link {
+  margin: 10px 10px;
+  padding: 20px 20px;
+}
+
+@media (min-width: 400px) {
+  #welcome-section {
+  height: auto;
+  margin: 10px 10px;
+  padding: 150px;
+  }
+  
+  
+  .project-tile {
+      font-size: 25px;
+      width: 80%;
+    
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+        "header header"
+        "footer footer";
+  }
+  
+  .project-link {
+  margin: 10px 10px;
+  padding: 100px;
+    
+  }
+  
+   #profile-link {
+  font-size: 32px;
+  }
+}
