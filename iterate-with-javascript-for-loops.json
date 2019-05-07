@@ -1,0 +1,1 @@
+{"index.js":"// Example\nvar ourArray = [];\n\nfor (var i = 0; i < 5; i++) {\n  ourArray.push(i);\n}\n\n// Setup\nvar myArray = [];\n\n// Only change code below this line.\n\nfor (var i = 1; i < 6; i++) {\n    myArray.push(i); // push value of i into array for each iteration of loop\n}\n"}
