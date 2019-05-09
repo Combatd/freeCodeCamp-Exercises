@@ -1,0 +1,1 @@
+{"index.js":"function checkScope() {\n\"use strict\";\n  let i = \"function scope\"; // this is for an unique i in global scope\n  if (true) {\n    let i = \"block scope\"; // this is for an unique i in local (function) scope\n    console.log(\"Block scope i is: \", i);\n  }\n  console.log(\"Function scope i is: \", i);\n  return i;\n}"}
