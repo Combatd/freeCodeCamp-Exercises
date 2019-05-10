@@ -1,0 +1,1 @@
+{"index.js":"import subtract from \"math_functions\";\n\n\"use strict\";\nsubtract(7,4);"}
