@@ -1,0 +1,1 @@
+{"index.js":"let caboose = \"The last car on a train is the caboose\";\nlet lastRegex = /caboose$/; // Find caboose at the end of the string called caboose\nlet result = lastRegex.test(caboose);"}
