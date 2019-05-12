@@ -1,0 +1,1 @@
+{"index.js":"let twinkleStar = \"Twinkle, twinkle, little star\";\nlet starRegex = /twinkle/gi; // match more than one twinkle, regardless of case\nlet result = twinkleStar.match(starRegex); // extract the match more than once"}
