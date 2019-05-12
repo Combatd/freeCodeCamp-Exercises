@@ -1,0 +1,1 @@
+{"index.js":"let quoteSample = \"The five boxing wizards jump quickly.\";\nlet nonAlphabetRegex = /\\W/g; // match all characters that are NOT A-Z or 0-9\nlet result = quoteSample.match(nonAlphabetRegex).length;"}
