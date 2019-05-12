@@ -1,0 +1,1 @@
+{"index.js":"let quoteSample = \"Blueberry 3.141592653s are delicious.\";\nlet myRegex = /[h-s2-6]/gi; // match all letters between h and s and all numbers from 2 to 6, globally and case insensitive\nlet result = quoteSample.match(myRegex); // extract the match to myRegex from quoteSample"}
