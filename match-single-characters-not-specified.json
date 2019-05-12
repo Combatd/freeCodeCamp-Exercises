@@ -1,0 +1,1 @@
+{"index.js":"let quoteSample = \"3 blind mice.\";\nlet myRegex = /[^aeiou^0-9]/gi; // negate all vowels and numbers 0 through 9 globally and case insensitive\nlet result = quoteSample.match(myRegex); // match all of myRegex in quoteSample, return it"}
