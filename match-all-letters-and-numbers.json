@@ -1,0 +1,1 @@
+{"index.js":"let quoteSample = \"The five boxing wizards jump quickly.\";\nlet alphabetRegexV2 = /\\w/gi; // global case insensitive\nlet result = quoteSample.match(alphabetRegexV2).length;"}
