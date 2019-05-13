@@ -1,0 +1,1 @@
+{"index.js":"let hello = \"   Hello, World!  \";\nlet wsRegex = /^\\s+|\\s+$/g; // check whitespace at beginning or end global\nlet removeWhiteSpace = \"\"\nlet result = hello.replace(wsRegex, removeWhiteSpace); // Change this line"}
