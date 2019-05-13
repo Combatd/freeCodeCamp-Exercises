@@ -1,0 +1,1 @@
+{"index.js":"let favWord = \"favorite\";\nlet favRegex = /favou?rite/; // favorite can have a u or not\nlet result = favRegex.test(favWord);"}
