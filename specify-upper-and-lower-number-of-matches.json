@@ -1,0 +1,1 @@
+{"index.js":"let ohStr = \"Ohhh no\";\nlet ohRegex = /Oh{3,6}\\sno/; // check oh with 3 to 6 h chars in a row, plus the white space and a no at the end.\nlet result = ohRegex.test(ohStr);"}
