@@ -1,0 +1,1 @@
+{"index.js":"let sample = \"Whitespace is important in separating words\";\nlet countWhiteSpace = /\\s/g; // find white space globally\nlet result = sample.match(countWhiteSpace);"}
