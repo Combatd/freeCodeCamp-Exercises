@@ -1,0 +1,1 @@
+{"index.js":"let numString = \"Your sandwich will be $5.00\";\nlet numRegex = /\\d/gi; // the d there is all numbers between 0 and 9, global and case insensitive\nlet result = numString.match(numRegex).length;"}
