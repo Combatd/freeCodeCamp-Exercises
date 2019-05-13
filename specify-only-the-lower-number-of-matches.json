@@ -1,0 +1,1 @@
+{"index.js":"let haStr = \"Hazzzzah\";\nlet haRegex = /z{4,}ah/; // z appears at least 4 times\nlet result = haRegex.test(haStr);"}
