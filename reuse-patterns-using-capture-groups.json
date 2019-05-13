@@ -1,0 +1,1 @@
+{"index.js":"let repeatNum = \"42 42 42\";\nlet reRegex = /^(\\d+)\\s\\1\\s\\1$/; // white space character after number set, white space at the end\nlet result = reRegex.test(repeatNum);"}
